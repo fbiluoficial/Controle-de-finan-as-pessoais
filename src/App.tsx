@@ -3,7 +3,8 @@ import { Toaster } from "./components/ui/toaster"
 import { Routes, Route, Navigate } from "react-router-dom"
 import Dashboard from "./components/dashboard"
 import Login from "./components/login"
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
+import { toast } from "react-toastify"; // Importar toast para exibir mensagens
 import { supabase } from "./lib/supabase"
 
 function App() {
