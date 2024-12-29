@@ -12,7 +12,7 @@ if (process.env.TEMPO === "true") {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.VITE_BASE_PATH || "/",
+  base: "/meu-repositorio/",
   optimizeDeps: {
     entries: ["src/main.tsx", "src/tempobook/**/*"],
   },
@@ -29,6 +29,6 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5178,
+    port: 5173,
   },
 });
